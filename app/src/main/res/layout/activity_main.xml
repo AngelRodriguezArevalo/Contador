@@ -45,4 +45,18 @@
         app:layout_constraintTop_toBottomOf="@+id/texto"
         app:layout_constraintVertical_bias="0.313" />
 
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="534dp"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
